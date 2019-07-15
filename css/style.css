@@ -736,16 +736,16 @@ footer {
 /* -------------------- */
 
 @media (max-width: 1440px) {
-    .carousel, .carousel-inner {
-        max-height: 775px;
+    .carousel, .carousel-inner, .carousel-item {
+        max-height: 625px;
         overflow: hidden;
     }
     .ie10 .carousel, .ie10 .carousel-inner {
-        max-height: 775px;
+        max-height: 625px;
         overflow: hidden;
     }
     _:-ms-lang(x), .carousel, .carousel-inner {
-        max-height: 775px;
+        max-height: 625px;
         overflow: hidden;
     }
 }
